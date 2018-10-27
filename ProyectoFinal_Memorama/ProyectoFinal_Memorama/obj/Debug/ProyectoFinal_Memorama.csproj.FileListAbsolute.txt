@@ -1,0 +1,15 @@
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe.config
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.pdb
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csprojAssemblyReference.cache
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Form1.resources
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Properties.Resources.resources
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.GenerateResource.cache
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.CoreCompileInputs.cache
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.exe
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.pdb
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Ayuda.resources
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Niveles.resources
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nosotros.resources
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel1.resources
+D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel2.resources
