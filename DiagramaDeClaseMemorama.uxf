@@ -27,29 +27,6 @@ CantidadCartas-int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>500</y>
-      <w>210</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes>Menú
---
--id: Long
-
---
-#Operation(i: int): int
-#FacilInteraccion();
-#Entendimiento();
-#ElegirNiveles();
-#SalirDelJuego();
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
       <x>780</x>
       <y>0</y>
       <w>210</w>
@@ -70,26 +47,6 @@ MostrarRecord-int
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
-      <y>360</y>
-      <w>210</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes>Ayuda
---
--id: Long
---
-#Operation(i: int): int
-#FacilitarEntendimiento();
-#ProporcionarAyuda();
-#LograrComodidad();
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
       <x>770</x>
       <y>340</y>
       <w>210</w>
@@ -98,6 +55,7 @@ MostrarRecord-int
     <panel_attributes>Niveles
 --
 -id: Long
+(Atributos_Por_Definir)
 --
 #Operation(i: int): int
 #Entretenimiento();
@@ -117,7 +75,7 @@ MostrarRecord-int
     <panel_attributes>Juego
 --
 -id: Long
-_-ClassAttribute: Long_
+
 --
 #Operation(i: int): int
 #DivertirUsuario();
@@ -151,41 +109,19 @@ _-ClassAttribute: Long_
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>380</y>
-      <w>30</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>290</x>
-      <y>540</y>
-      <w>160</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>140.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>670</x>
-      <y>540</y>
+      <x>630</x>
+      <y>390</y>
       <w>140</w>
-      <h>100</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;80.0;120.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>70</x>
-      <y>590</y>
+      <x>140</x>
+      <y>410</y>
       <w>170</w>
       <h>110</h>
     </coordinates>
