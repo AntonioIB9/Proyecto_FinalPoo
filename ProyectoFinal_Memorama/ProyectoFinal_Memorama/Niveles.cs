@@ -19,18 +19,18 @@ namespace ProyectoFinal_Memorama
 
         private void Niveles_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image=Image.FromFile(@"D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\Equilibrio.gif");
+            //pictureBox1.Image=Image.FromFile(@"C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\Imagenes\Equilibrio.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BtnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
             Form1 frm = new Form1();
             frm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnN1_Click(object sender, EventArgs e)
         {
             this.Close();
             Nivel1 frm = new Nivel1();
@@ -38,7 +38,7 @@ namespace ProyectoFinal_Memorama
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnN2_Click(object sender, EventArgs e)
         {
             this.Close();
             Nivel2 frm = new Nivel2();

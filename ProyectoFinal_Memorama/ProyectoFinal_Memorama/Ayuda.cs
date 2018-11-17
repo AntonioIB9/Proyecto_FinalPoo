@@ -19,11 +19,12 @@ namespace ProyectoFinal_Memorama
 
         private void Ayuda_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile(@"D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\Lectura!.gif");
+            
+            //pictureBox1.Image = Image.FromFile(@"C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\Imagenes\Lectura!.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
             Form1 frm = new Form1();

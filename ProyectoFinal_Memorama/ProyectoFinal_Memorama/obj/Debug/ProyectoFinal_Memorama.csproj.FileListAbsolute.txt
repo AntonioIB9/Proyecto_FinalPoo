@@ -13,18 +13,33 @@ D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\D
 D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nosotros.resources
 D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel1.resources
 D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel2.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe.config
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.pdb
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csprojResolveAssemblyReference.cache
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Ayuda.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Form1.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel1.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel2.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Niveles.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nosotros.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Properties.Resources.resources
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.GenerateResource.Cache
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.CoreCompileInputs.cache
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.exe
-D:\Universidad\2do Semestre\POO\Proyecto Final - Memorama\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.pdb
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe.config
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.pdb
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csprojAssemblyReference.cache
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Ayuda.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Form1.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel1.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel2.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Niveles.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nosotros.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Properties.Resources.resources
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.GenerateResource.cache
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.CoreCompileInputs.cache
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.exe
+D:\POO\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.pdb
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe.config
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.exe
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\bin\Debug\ProyectoFinal_Memorama.pdb
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csprojResolveAssemblyReference.cache
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Ayuda.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Form1.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel1.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nivel2.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Niveles.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Nosotros.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.Properties.Resources.resources
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.GenerateResource.cache
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.csproj.CoreCompileInputs.cache
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.exe
+C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\obj\Debug\ProyectoFinal_Memorama.pdb

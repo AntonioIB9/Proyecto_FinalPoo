@@ -19,11 +19,11 @@ namespace ProyectoFinal_Memorama
 
         private void Nosotros_Load(object sender, EventArgs e)
         {
-            pictureBox1.Image=Image.FromFile(@"D:\Mis Documentos\Escritorio\ProyectoFinal_Memorama\sentarse.gif");
+            //pictureBox1.Image=Image.FromFile(@"C:\Users\Familia\Desktop\ProyectoFinal_Memorama\ProyectoFinal_Memorama\Imagenes\sentarse.gif");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
             Form1 frm = new Form1();
@@ -31,5 +31,3 @@ namespace ProyectoFinal_Memorama
         }
     }
 }
-
-//Holi xd

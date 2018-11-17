@@ -17,12 +17,21 @@ namespace ProyectoFinal_Memorama
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void BtnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (MessageBox.Show("Desea realmente salir? ", "salir", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+              this.Close();
+                Application.Exit();
+            }
+            else
+            {
+                
+            }
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnAyuda_Click(object sender, EventArgs e)
         {
             this.Hide();
             Ayuda frm = new Ayuda();
@@ -30,14 +39,14 @@ namespace ProyectoFinal_Memorama
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void BtnNosotros_Click(object sender, EventArgs e)
         {
             this.Hide();
             Nosotros frm = new Nosotros();
             frm.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BtnNiveles_Click(object sender, EventArgs e)
         {
             this.Hide();
             Niveles frm = new Niveles();

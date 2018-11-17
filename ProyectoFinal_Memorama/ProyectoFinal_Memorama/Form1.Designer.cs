@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.BtnAyuda = new System.Windows.Forms.Button();
+            this.BtnNiveles = new System.Windows.Forms.Button();
+            this.BtnNosotros = new System.Windows.Forms.Button();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -46,54 +46,54 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Memorama";
             // 
-            // button1
+            // BtnAyuda
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(29, 379);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 32);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Ayuda";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BtnAyuda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnAyuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAyuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BtnAyuda.Location = new System.Drawing.Point(29, 379);
+            this.BtnAyuda.Name = "BtnAyuda";
+            this.BtnAyuda.Size = new System.Drawing.Size(97, 32);
+            this.BtnAyuda.TabIndex = 2;
+            this.BtnAyuda.Text = "Ayuda";
+            this.BtnAyuda.UseVisualStyleBackColor = false;
+            this.BtnAyuda.Click += new System.EventHandler(this.BtnAyuda_Click);
             // 
-            // button2
+            // BtnNiveles
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(165, 379);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 32);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Niveles";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BtnNiveles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.BtnNiveles.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNiveles.Location = new System.Drawing.Point(165, 379);
+            this.BtnNiveles.Name = "BtnNiveles";
+            this.BtnNiveles.Size = new System.Drawing.Size(97, 32);
+            this.BtnNiveles.TabIndex = 3;
+            this.BtnNiveles.Text = "Niveles";
+            this.BtnNiveles.UseVisualStyleBackColor = false;
+            this.BtnNiveles.Click += new System.EventHandler(this.BtnNiveles_Click);
             // 
-            // button4
+            // BtnNosotros
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(29, 425);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(97, 32);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Nosotros";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.BtnNosotros.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BtnNosotros.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNosotros.Location = new System.Drawing.Point(29, 425);
+            this.BtnNosotros.Name = "BtnNosotros";
+            this.BtnNosotros.Size = new System.Drawing.Size(97, 32);
+            this.BtnNosotros.TabIndex = 5;
+            this.BtnNosotros.Text = "Nosotros";
+            this.BtnNosotros.UseVisualStyleBackColor = false;
+            this.BtnNosotros.Click += new System.EventHandler(this.BtnNosotros_Click);
             // 
-            // button5
+            // BtnSalir
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(165, 425);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(97, 32);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Salir";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.BtnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.Location = new System.Drawing.Point(165, 425);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(97, 32);
+            this.BtnSalir.TabIndex = 6;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // Form1
             // 
@@ -101,10 +101,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(309, 469);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnSalir);
+            this.Controls.Add(this.BtnNosotros);
+            this.Controls.Add(this.BtnNiveles);
+            this.Controls.Add(this.BtnAyuda);
             this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -117,10 +117,10 @@
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button BtnAyuda;
+        private System.Windows.Forms.Button BtnNiveles;
+        private System.Windows.Forms.Button BtnNosotros;
+        private System.Windows.Forms.Button BtnSalir;
     }
 }
 

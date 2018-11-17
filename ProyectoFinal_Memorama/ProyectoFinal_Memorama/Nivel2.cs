@@ -17,7 +17,7 @@ namespace ProyectoFinal_Memorama
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnRegresar_Click(object sender, EventArgs e)
         {
             this.Close();
             Niveles frm = new Niveles();
