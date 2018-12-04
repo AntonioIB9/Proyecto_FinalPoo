@@ -52,5 +52,27 @@ namespace ProyectoFinal_Memorama
             Niveles frm = new Niveles();
             frm.Show();
         }
+
+        
+        private void PictureboxFb_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com");
+        }
+
+        private void PictureboxYou_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com");
+        }
+
+        private void PictureboxInsta_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/?hl=es-la");
+          
+        }
+        //cierra todos los forms al precionar la tacha del form principal
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

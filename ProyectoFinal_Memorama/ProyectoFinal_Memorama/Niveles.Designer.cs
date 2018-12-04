@@ -33,6 +33,7 @@
             this.BtnN2 = new System.Windows.Forms.Button();
             this.BtnRegresar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnN3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,7 +44,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(40, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 20);
+            this.label1.Size = new System.Drawing.Size(220, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Elige el nivel que desees...";
             // 
@@ -51,7 +52,7 @@
             // 
             this.BtnN1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.BtnN1.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnN1.Location = new System.Drawing.Point(95, 232);
+            this.BtnN1.Location = new System.Drawing.Point(95, 212);
             this.BtnN1.Name = "BtnN1";
             this.BtnN1.Size = new System.Drawing.Size(88, 33);
             this.BtnN1.TabIndex = 1;
@@ -63,7 +64,7 @@
             // 
             this.BtnN2.BackColor = System.Drawing.Color.LimeGreen;
             this.BtnN2.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnN2.Location = new System.Drawing.Point(95, 304);
+            this.BtnN2.Location = new System.Drawing.Point(95, 266);
             this.BtnN2.Name = "BtnN2";
             this.BtnN2.Size = new System.Drawing.Size(88, 33);
             this.BtnN2.TabIndex = 2;
@@ -93,16 +94,30 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnN3
+            // 
+            this.BtnN3.BackColor = System.Drawing.Color.Pink;
+            this.BtnN3.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnN3.Location = new System.Drawing.Point(95, 320);
+            this.BtnN3.Name = "BtnN3";
+            this.BtnN3.Size = new System.Drawing.Size(88, 33);
+            this.BtnN3.TabIndex = 5;
+            this.BtnN3.Text = "Nivel 3";
+            this.BtnN3.UseVisualStyleBackColor = false;
+            this.BtnN3.Click += new System.EventHandler(this.BtnN3_Click);
+            // 
             // Niveles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(317, 412);
+            this.Controls.Add(this.BtnN3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnRegresar);
             this.Controls.Add(this.BtnN2);
             this.Controls.Add(this.BtnN1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Niveles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Niveles";
@@ -120,5 +135,6 @@
         private System.Windows.Forms.Button BtnN2;
         private System.Windows.Forms.Button BtnRegresar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnN3;
     }
 }

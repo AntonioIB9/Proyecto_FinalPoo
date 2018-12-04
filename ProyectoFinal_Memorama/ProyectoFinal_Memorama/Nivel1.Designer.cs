@@ -48,12 +48,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.LblFigura = new System.Windows.Forms.Label();
             this.Timer = new System.Windows.Forms.Timer(this.components);
+            this.lblValor = new System.Windows.Forms.Label();
+            this.TmrPrueba = new System.Windows.Forms.Timer(this.components);
+            this.BtnInicio = new System.Windows.Forms.Button();
+            this.BtnRestart = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BtnRegresar
             // 
-            this.BtnRegresar.BackColor = System.Drawing.Color.Coral;
+            this.BtnRegresar.BackColor = System.Drawing.Color.Chocolate;
             this.BtnRegresar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRegresar.Location = new System.Drawing.Point(12, 288);
             this.BtnRegresar.Name = "BtnRegresar";
@@ -88,7 +92,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.LblFigura, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(23, 16);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -311,18 +315,63 @@
             this.Timer.Interval = 750;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
+            // lblValor
+            // 
+            this.lblValor.AutoSize = true;
+            this.lblValor.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValor.Location = new System.Drawing.Point(366, 294);
+            this.lblValor.Name = "lblValor";
+            this.lblValor.Size = new System.Drawing.Size(15, 17);
+            this.lblValor.TabIndex = 2;
+            this.lblValor.Text = "0";
+            // 
+            // TmrPrueba
+            // 
+            this.TmrPrueba.Interval = 1000;
+            this.TmrPrueba.Tick += new System.EventHandler(this.TmrPrueba_Tick);
+            // 
+            // BtnInicio
+            // 
+            this.BtnInicio.BackColor = System.Drawing.Color.SeaGreen;
+            this.BtnInicio.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnInicio.Location = new System.Drawing.Point(247, 288);
+            this.BtnInicio.Name = "BtnInicio";
+            this.BtnInicio.Size = new System.Drawing.Size(113, 26);
+            this.BtnInicio.TabIndex = 3;
+            this.BtnInicio.Text = "Contra reloj";
+            this.BtnInicio.UseVisualStyleBackColor = false;
+            this.BtnInicio.Click += new System.EventHandler(this.BtnInicio_Click);
+            // 
+            // BtnRestart
+            // 
+            this.BtnRestart.BackColor = System.Drawing.Color.Green;
+            this.BtnRestart.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRestart.Location = new System.Drawing.Point(128, 288);
+            this.BtnRestart.Name = "BtnRestart";
+            this.BtnRestart.Size = new System.Drawing.Size(90, 25);
+            this.BtnRestart.TabIndex = 4;
+            this.BtnRestart.Text = "Reiniciar";
+            this.BtnRestart.UseVisualStyleBackColor = false;
+            this.BtnRestart.Click += new System.EventHandler(this.BtnRestart_Click);
+            // 
             // Nivel1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 326);
+            this.ClientSize = new System.Drawing.Size(392, 337);
+            this.Controls.Add(this.BtnRestart);
+            this.Controls.Add(this.BtnInicio);
+            this.Controls.Add(this.lblValor);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.BtnRegresar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Nivel1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nivel1";
+            this.Load += new System.EventHandler(this.Nivel1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -347,5 +396,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer Timer;
+        private System.Windows.Forms.Label lblValor;
+        private System.Windows.Forms.Timer TmrPrueba;
+        private System.Windows.Forms.Button BtnInicio;
+        private System.Windows.Forms.Button BtnRestart;
     }
 }

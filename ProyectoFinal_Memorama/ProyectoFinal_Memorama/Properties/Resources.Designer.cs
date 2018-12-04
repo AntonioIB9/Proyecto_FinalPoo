@@ -63,6 +63,16 @@ namespace ProyectoFinal_Memorama.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Asustar {
+            get {
+                object obj = ResourceManager.GetObject("Asustar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Equilibrio {
             get {
                 object obj = ResourceManager.GetObject("Equilibrio", resourceCulture);
@@ -76,6 +86,46 @@ namespace ProyectoFinal_Memorama.Properties {
         internal static System.Drawing.Bitmap Lectura_ {
             get {
                 object obj = ResourceManager.GetObject("Lectura!", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_fb {
+            get {
+                object obj = ResourceManager.GetObject("logo_fb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logo_Insta {
+            get {
+                object obj = ResourceManager.GetObject("Logo-Insta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logoclass {
+            get {
+                object obj = ResourceManager.GetObject("logoclass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logoyoutubr {
+            get {
+                object obj = ResourceManager.GetObject("logoyoutubr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

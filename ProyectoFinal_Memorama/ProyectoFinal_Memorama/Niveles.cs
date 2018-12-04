@@ -41,9 +41,16 @@ namespace ProyectoFinal_Memorama
         private void BtnN2_Click(object sender, EventArgs e)
         {
             this.Close();
-            Nivel2 frm = new Nivel2();
+            Desafio frm = new Desafio();
             frm.Show();
 
+        }
+
+        private void BtnN3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Nivel3 frm3 = new Nivel3();
+            frm3.Show();
         }
     }
 }
